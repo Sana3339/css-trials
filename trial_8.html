@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <style>
+
+      body {
+          margin: 0;
+      }
+
+      .background {
+          background-color: #cccccc;
+          width: 900px;
+          height: 200px;
+          margin: 0;
+          padding: 15px 10px;
+          float:center;
+      }
+
+      .square {
+        display: inline-block;
+        height: 180px;
+        width: 180px;
+        border: double 10px;
+      }
+
+      .circle {
+        display: inline-block;
+        border-radius: 50%;
+        height: 180px;
+        width: 180px;
+        border: dotted 10px;
+        float: center;
+        margin-left: 15%;
+      }
+
+      #right.square{
+          float: right;
+      }
+
+
+    </style>
+  </head>
+
+  <body>
+    <div class="background">
+        <div class="square"></div>
+        <div class="circle"></div>
+        <div class="square" id="right"></div>
+    </div>
+  
+
+  </body>
+
+</html>
